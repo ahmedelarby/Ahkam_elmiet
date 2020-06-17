@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="10dp"
+app:cardBackgroundColor="#00FFF7F7"
+    android:backgroundTint="#27330909"
+android:backgroundTintMode="add"
+
+    app:contentPadding="5dp"
+
+    android:layout_marginBottom="10dp">
+
+
+
+
+        <Button
+
+            android:textColor="#F5BF04"
+            android:id="@+id/word"
+            android:layout_width="match_parent"
+            android:layout_marginEnd="80dp"
+            android:layout_marginStart="80dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:background="@drawable/mogama"
+            android:text="بسم الله الرحمن الرحيم "
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
